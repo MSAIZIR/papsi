@@ -603,7 +603,7 @@ def crackmbasic(idf, pwv):
             'Authentication': 'OAuth 6628568379|c1e620fa708a1d5696fb991c1bde5662',
             'x-fb-connection-quality': 'EXCELLENT',
             'x-fb-connection-type': 'cell',
-             'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
+            'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
             'x-fb-sim-hni': str(random.randint(20000, 40000)),
             'x-fb-net-hni': str(random.randint(20000, 40000)),
             'content-type': 'application/x-www-form-urlencoded',
